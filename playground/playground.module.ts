@@ -1,4 +1,4 @@
-import './../tools/assets/playground.scss';
+import './styles.scss';
 
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -8,7 +8,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FsComponentModule } from '../src';
 import { AppMaterialModule } from './app/material.module';
 import { AppComponent } from './app/app.component';
-import { FirstExampleComponent } from './app/components';
+import { SingleLineComponent } from './app/components';
+import { SingleLineHintComponent } from './app/components';
+import { SingleLineIconComponent } from './app/components';
+import { SingleLineDisabledComponent } from './app/components';
+import { SingleLineDebounceComponent } from './app/components';
+import { SingleLineMaxLengthComponent } from './app/components';
+import { SingleLineBlurComponent } from './app/components';
+import { SingleLinePreSuffixComponent } from './app/components';
+import { MultilineComponent } from './app/components';
+
+
 
 @NgModule({
   bootstrap: [ AppComponent ],
@@ -24,7 +34,15 @@ import { FirstExampleComponent } from './app/components';
   ],
   declarations: [
     AppComponent,
-    FirstExampleComponent
+    SingleLineComponent,
+    SingleLineHintComponent,
+    SingleLineIconComponent,
+    SingleLineDisabledComponent,
+    SingleLineDebounceComponent,
+    SingleLineMaxLengthComponent,
+    SingleLineBlurComponent,
+    MultilineComponent,
+    SingleLinePreSuffixComponent
   ],
   providers: [
   ],

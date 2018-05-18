@@ -1,0 +1,4 @@
+<mat-form-field>
+  <input matInput [value]="debounceValue" (keyup)="debounceChange$.next($event.target.value)" placeholder="Placeholder">
+  <mat-hint>Text will appear with a 600ms delay: {{ debounceValue }}</mat-hint>
+</mat-form-field>

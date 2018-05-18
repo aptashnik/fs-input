@@ -1,0 +1,4 @@
+<mat-form-field>
+  <input matInput placeholder="Placeholder" maxlength="20" #input>
+  <mat-hint align="end">{{input.value?.length || 0}}/20</mat-hint>
+</mat-form-field>
