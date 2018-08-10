@@ -44,3 +44,6 @@ dist/*
 /demo
 /docs
 /*.code-workspace
+
+# UI tests specific artifacts
+/report
